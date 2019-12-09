@@ -1,0 +1,44 @@
+@import url(fonts.scss);
+/*
+To be imported in any file that needs it with the following syntax:
+@import "_variables.scss";
+
+Using url() does not seem to work.
+*/
+/* COLOR PALETTE */
+/* FONT FAMILIES*/
+/* HEADER */
+/* MENU */
+/* PRICING */
+#home {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: url(../img/hero.png);
+  background-size: cover;
+  margin-top: 50px;
+  height: 65vh;
+  width: 100%; }
+  #home button {
+    background-color: #E85546;
+    color: white;
+    width: 25%;
+    min-width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    cursor: pointer; }
+  #home h2 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em; }
+  #home .homeLogo {
+    display: block;
+    content: url(../img/logo.png);
+    margin: auto;
+    padding-top: 10px; }
+
+/*# sourceMappingURL=home.css.map */

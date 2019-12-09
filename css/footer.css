@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url(fonts.scss);
+/*
+To be imported in any file that needs it with the following syntax:
+@import "_variables.scss";
+
+Using url() does not seem to work.
+*/
+/* COLOR PALETTE */
+/* FONT FAMILIES*/
+/* HEADER */
+/* MENU */
+/* PRICING */
+footer {
+  display: block;
+  height: 200px; }
+  footer p {
+    text-align: center;
+    color: black;
+    font-size: 0.8em; }
+  footer p:first-child {
+    padding-top: 50px; }
+  footer p:nth-child(4) {
+    color: #DDD; }
+  footer .decoButton {
+    display: block;
+    position: relative;
+    top: -35px;
+    margin: auto;
+    height: 70px;
+    width: 70px;
+    background-color: #E85546;
+    border-radius: 35px;
+    /* Adaptation du logo Liberty */ }
+    footer .decoButton img {
+      width: 40px;
+      height: 40px;
+      transform: translate(15px, 12px); }
+
+/* Conteneur pour les icônes de média sociaux */
+.socialMedia {
+  display: flex;
+  margin: auto;
+  max-width: 120px;
+  justify-content: space-between;
+  margin-top: 10px; }
+
+/* Paramètres communs pour les icônes sociales */
+.socialMediaIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-family: "Social Media JJK";
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  vertical-align: text-bottom;
+  line-height: 42px; }
+  .socialMediaIcon:hover {
+    cursor: pointer; }
+
+/* Paramètres spéciciques à chacun des réseaux sociaux */
+.fb {
+  background-color: #3B5998; }
+
+.tw {
+  background-color: #00ACED; }
+
+.gp {
+  background-color: #DD4B39; }
+
+/*# sourceMappingURL=footer.css.map */

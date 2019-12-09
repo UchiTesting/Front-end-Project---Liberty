@@ -1,0 +1,79 @@
+@import "_variables.scss";
+
+.offer {
+    display: inline-block;
+    width: 190px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 1px $pricing_offer_border_color_idle;
+    border-radius: 3px;
+    padding: 0px;
+
+    &:hover {
+        border-color: $pricing_offer_border_color_hover;
+    }
+
+    &:hover button {
+        background-color: $pricing_offer_border_color_hover;
+    }
+
+    &:hover .offerHeader {
+        background-color: $pricing_header_bgcolor_hover;
+        color: $pricing_header_color_hover;
+        border-color: transparent;
+    }
+
+    button {
+        background-color: $pricing_btn_bgcolor_idle;
+        color: white;
+        text-transform: capitalize;
+        margin: 20px;
+        align-self: center;
+        border: solid 1px transparent;
+        border-radius: 3px;
+        padding: 10px 0 10px 0;
+        width: 80%;
+        cursor: pointer;
+		 
+		 &:hover {
+			 background-color: white;
+			 color: $pricing_btn_bgcolor_idle;
+			 border: solid 1px $pricing_btn_bgcolor_idle;
+		 }
+    }
+}
+
+.offerHeader {
+    background-color: $pricing_header_bgcolor_idle;
+    color: $pricing_header_color_idle;
+    padding: 10px;
+    text-align: center;
+    border-bottom: solid 1px $pricing_offer_border_color_idle;
+    border-radius: 3px 3px 0 0;
+
+
+    & p {
+        color: inherit;
+    }
+
+    & p:hover {
+        color: inherit;
+    }
+
+    & p:nth-child(2) {
+        font-size: 0.7em;
+    }
+}
+
+.offerLine {
+    text-align: center;
+    padding: 15px;
+}
+
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+}

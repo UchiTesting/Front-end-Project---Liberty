@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url(fonts.scss);
+/*
+To be imported in any file that needs it with the following syntax:
+@import "_variables.scss";
+
+Using url() does not seem to work.
+*/
+/* COLOR PALETTE */
+/* FONT FAMILIES*/
+/* HEADER */
+/* MENU */
+/* PRICING */
+/**/
+#ourWorks {
+  /* Z-index nécessaire car la section passait au-dessus de la section du dessus. */
+  z-index: 0; }
+  #ourWorks .imageWorks {
+    display: block;
+    width: 100%;
+    height: auto; }
+  #ourWorks .ourWorksDetails {
+    position: absolute;
+    top: 100px; }
+  #ourWorks .overlay {
+    display: block;
+    position: absolute;
+    background-color: #E85546;
+    top: 0;
+    left: 0;
+    height: 203px;
+    width: 270px;
+    opacity: 0; }
+    #ourWorks .overlay p {
+      margin: auto;
+      color: #E85546;
+      font-family: "Lato Black";
+      font-weight: 900;
+      font-size: 3em;
+      text-align: center;
+      background-color: white;
+      margin-top: 76px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      padding: 0;
+      /* Nécessaire pour centrer la croix */
+      line-height: 50px; }
+    #ourWorks .overlay:hover {
+      opacity: 0.8;
+      cursor: pointer; }
+  #ourWorks .projectTitle {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 50px; }
+  #ourWorks .thumbnail {
+    /* 21% obtenu par tatonnement */
+    flex: 1 0 21%;
+    position: relative; }
+  #ourWorks .image-grid {
+    display: block;
+    max-width: 1100px;
+    margin: auto; }
+  #ourWorks .image-grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto; }
+
+/* Ajustement responsive */
+@media screen and (max-width: 760px) {
+  p {
+    width: 80%; }
+
+  .image-grid-row {
+    padding-left: 15px; } }
+
+/*# sourceMappingURL=ourWorks.css.map */

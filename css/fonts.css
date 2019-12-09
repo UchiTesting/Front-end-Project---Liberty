@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* Définition des polices */
+/* Fonte des H1 */
+@font-face {
+  font-family: "Poiret One";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/PoiretOne-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato/Lato-Thin.ttf") format("truetype"); }
+@font-face {
+  font-family: "Lato Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato/Lato-Black.ttf") format("truetype"); }
+/* Fonte perso que j'ai créé avec Inkscape et FontForge ;)
+Contient les icônes pour les média sociaux */
+@font-face {
+  font-family: "Social Media JJK";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SocialMediaJJK/SMJJK.otf") format("opentype"); }
+
+/*# sourceMappingURL=fonts.css.map */

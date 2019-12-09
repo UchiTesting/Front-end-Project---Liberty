@@ -1,0 +1,79 @@
+@import "_variables.scss";
+
+form {
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+
+    /* Partie gauche du formulaire */
+    .leftForm {
+        width: 60%;
+    }
+
+    /* Partie droite du formulaire */
+    .rightForm {
+        width: 40%;
+    }
+
+
+    textarea {
+        height: 100%;
+        margin-left: 0;
+    }
+
+    /* Definition des contours arrondis */
+    input,
+    textarea,
+    select,
+    button {
+        border: solid 1.18px rgba(0, 0, 0, 0.5);
+        border-radius: 3px;
+        margin: 0 0 20px 20px;
+        padding: 10px;
+    }
+
+    .submitLine {
+        display: flex;
+        box-sizing: border-box;
+
+        & select {
+            width: 100%;
+        }
+    }
+
+    button {
+        background-color: $reddish;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    /* Rendre le formulaire responsif en affichant les parties gauche et droite verticalement */
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+
+        & .leftForm {
+            width: 80%;
+            margin-left: 30px;
+        }
+
+        & .rightForm {
+            width: 80%;
+            margin-left: 30px;
+        }
+
+        textarea {
+            margin-left: 20px;
+        }
+    }
+
+    .flexForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+}

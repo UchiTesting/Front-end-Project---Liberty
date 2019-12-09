@@ -1,0 +1,70 @@
+@import url(fonts.scss);
+/*
+To be imported in any file that needs it with the following syntax:
+@import "_variables.scss";
+
+Using url() does not seem to work.
+*/
+/* COLOR PALETTE */
+/* FONT FAMILIES*/
+/* HEADER */
+/* MENU */
+/* PRICING */
+.offer {
+  display: inline-block;
+  width: 190px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: solid 1px #DDD;
+  border-radius: 3px;
+  padding: 0px; }
+  .offer:hover {
+    border-color: #3498DB; }
+  .offer:hover button {
+    background-color: #3498DB; }
+  .offer:hover .offerHeader {
+    background-color: #3498DB;
+    color: white;
+    border-color: transparent; }
+  .offer button {
+    background-color: #1E2A37;
+    color: white;
+    text-transform: capitalize;
+    margin: 20px;
+    align-self: center;
+    border: solid 1px transparent;
+    border-radius: 3px;
+    padding: 10px 0 10px 0;
+    width: 80%;
+    cursor: pointer; }
+    .offer button:hover {
+      background-color: white;
+      color: #1E2A37;
+      border: solid 1px #1E2A37; }
+
+.offerHeader {
+  background-color: #F5F5F5;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  border-bottom: solid 1px #DDD;
+  border-radius: 3px 3px 0 0; }
+  .offerHeader p {
+    color: inherit; }
+  .offerHeader p:hover {
+    color: inherit; }
+  .offerHeader p:nth-child(2) {
+    font-size: 0.7em; }
+
+.offerLine {
+  text-align: center;
+  padding: 15px; }
+
+.pricing {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px; }
+
+/*# sourceMappingURL=pricing.css.map */

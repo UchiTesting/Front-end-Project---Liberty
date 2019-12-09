@@ -1,0 +1,51 @@
+@import url(fonts.scss);
+/*
+To be imported in any file that needs it with the following syntax:
+@import "_variables.scss";
+
+Using url() does not seem to work.
+*/
+
+/* COLOR PALETTE */
+$reddish: #E85546;
+$someClearGrey: #F5F5F5;
+$someGrey: #DDD;
+$someLightBlue: #3498DB;
+$someDarkBlue: #1E2A37;
+$fbbgc: #3B5998;
+$twbgc: #00ACED;
+$gpbgc: #DD4B39;
+
+/* FONT FAMILIES*/
+$fontTitle: "Poiret One";
+$fontLogo: "Lato Regular",
+sans-serif;
+
+/* HEADER */
+$header_background: $reddish;
+$header_height: 50px;
+
+$home_btn_bgcolor: $reddish;
+$home_bgimg_height:65vh;
+
+/* MENU */
+$menu_text_color: white;
+
+/* PRICING */
+$pricing_btn_bgcolor_idle: $someDarkBlue;
+$pricing_btn_bgcolor_hover: $someLightBlue;
+$pricing_btn_color_idle: white;
+$pricing_btn_color_hover: white;
+
+$pricing_header_bgcolor_hover: $someLightBlue;
+$pricing_header_bgcolor_idle: $someClearGrey;
+$pricing_header_color_hover: white;
+$pricing_header_color_idle: black;
+
+
+$pricing_offer_bgcolor_hover: $someLightBlue;
+$pricing_offer_bgcolor_idle: $someGrey;
+$pricing_offer_color_idle: $someGrey;
+
+$pricing_offer_border_color_idle: $someGrey;
+$pricing_offer_border_color_hover: $someLightBlue;

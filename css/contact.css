@@ -1,0 +1,60 @@
+@import url(fonts.scss);
+/*
+To be imported in any file that needs it with the following syntax:
+@import "_variables.scss";
+
+Using url() does not seem to work.
+*/
+/* COLOR PALETTE */
+/* FONT FAMILIES*/
+/* HEADER */
+/* MENU */
+/* PRICING */
+form {
+  display: flex;
+  margin: auto;
+  max-width: 800px;
+  /* Partie gauche du formulaire */
+  /* Partie droite du formulaire */
+  /* Definition des contours arrondis */
+  /* Rendre le formulaire responsif en affichant les parties gauche et droite verticalement */ }
+  form .leftForm {
+    width: 60%; }
+  form .rightForm {
+    width: 40%; }
+  form textarea {
+    height: 100%;
+    margin-left: 0; }
+  form input,
+  form textarea,
+  form select,
+  form button {
+    border: solid 1.18px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    margin: 0 0 20px 20px;
+    padding: 10px; }
+  form .submitLine {
+    display: flex;
+    box-sizing: border-box; }
+    form .submitLine select {
+      width: 100%; }
+  form button {
+    background-color: #E85546; }
+    form button:hover {
+      cursor: pointer; }
+  @media screen and (max-width: 800px) {
+    form {
+      flex-direction: column; }
+      form .leftForm {
+        width: 80%;
+        margin-left: 30px; }
+      form .rightForm {
+        width: 80%;
+        margin-left: 30px; }
+      form textarea {
+        margin-left: 20px; } }
+  form .flexForm {
+    display: flex;
+    flex-direction: column; }
+
+/*# sourceMappingURL=contact.css.map */
